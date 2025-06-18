@@ -27,7 +27,7 @@ public class UserController {
             users.put(user.getId(), user);
             return ResponseEntity.ok(user);
         } else {
-            return new ResponseEntity<>(HttpStatus.CONFLICT);
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
     }
 
