@@ -1,7 +1,7 @@
 # Simple REST API
 
 ## Description
-[Brief description of what the project does]
+A basic user management API with endpoints to create users and fetch user details by ID.
 
 ## Programming Language and Framework used
 - **Language:** Java 17
